@@ -48,6 +48,15 @@ The app uses the following SharePoint lists:
 - IncidentDirectionsScreen
 - HelpScreen
 
+## Power App Source Export Note
+
+The team attempted to unpack the Power App using Power Platform CLI:
+
+pac canvas unpack --msapp "Agile Crew.msapp" --sources powerapp-source
+
+However, the CLI returned a System.NullReferenceException. As a workaround, the `.msapp` file was manually extracted into the `powerapp-source` folder. This follows Microsoft’s documented fallback approach that `.msapp` files can be extracted manually to access source files.
+
+
 ## Repository Structure
 
 ```text
@@ -55,3 +64,4 @@ ELEC1005-agilecrew67-safety-app/
 ├── README.md
 └── powerapp-source/
     └── unpacked Power App source files
+
