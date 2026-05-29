@@ -33,13 +33,6 @@ The app supports community safety volunteers by allowing users to report hazards
 - Volunteers
 - Assignments
 
-## Repository Structure
-
-- `powerapp-source/`: unpacked Power App source files
-- `docs/`: documentation PDFs
-- `screenshots/`: app screenshots
-- `test-evidence/`: testing evidence
-
 ## Notes
 
 The Power App source was unpacked using Power Platform CLI with `pac canvas unpack`.
