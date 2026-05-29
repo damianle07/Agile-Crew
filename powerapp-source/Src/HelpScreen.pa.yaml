@@ -1,0 +1,93 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps should only be used to review changes made within Power Apps Studio and for minor edits (Preview).
+# Use the maker portal to create and edit your Power Apps.
+# 
+# The schema file for Canvas Apps is available at https://go.microsoft.com/fwlink/?linkid=2304907
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  HelpScreen:
+    Properties:
+      Fill: |-
+        =RGBA(
+            255,
+            255,
+            255,
+            1
+        )
+      LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Children:
+      - lblHomeTitle_8:
+          Control: ModernText@1.0.0
+          Properties:
+            Align: =Align.Center
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(215, 58, 60, 1)
+            Font: =Font.'Lato Black'
+            FontWeight: |
+              =FontWeight.Bold
+            Height: =120
+            Size: |
+              =28
+            Text: ="HOW TO USE THIS APP"
+            Width: =1366
+      - Button2_6:
+          Control: Classic/Button@2.2.0
+          Properties:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            DisabledFill: =RGBA(242, 242, 241, 0)
+            Fill: =RGBA(215, 58, 60, 1)
+            Font: =Font.'Segoe UI'
+            Height: =52
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            OnSelect: =Back()
+            PressedBorderColor: =RGBA(255, 255, 255, 1)
+            PressedColor: =RGBA(0, 0, 0, 1)
+            PressedFill: =RGBA(255, 255, 255, 1)
+            Size: =20
+            Text: ="< Back"
+            Width: =170
+            X: =40
+            Y: =34
+      - TextInput6:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(50, 49, 48, 1)
+            Default: |-
+              =
+              "1. Use Fire Alert for urgent fire or smoke reports." & Char(10) &
+              "2. Use Hazard Report for risks such as fallen trees, blocked roads, power lines, or fire risks." & Char(10) &
+              "3. Managers enter the access code: agilecrew67." & Char(10) &
+              "4. Volunteers check My Assignments and accept or decline tasks." & Char(10) &
+              "5. Only use this app when it is safe to do so."
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            DisabledFill: =RGBA(242, 242, 241, 0)
+            Fill: =RGBA(230, 230, 230, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =238
+            HoverBorderColor: =RGBA(16, 110, 190, 1)
+            HoverColor: =RGBA(50, 49, 48, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            Mode: =TextMode.MultiLine
+            PressedBorderColor: =RGBA(0, 120, 212, 1)
+            PressedColor: =RGBA(50, 49, 48, 1)
+            PressedFill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Size: =25
+            Width: =910
+            X: =243
+            Y: =282
